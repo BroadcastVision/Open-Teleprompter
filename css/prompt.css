@@ -1,0 +1,43 @@
+body {
+	background:#000;
+	margin:155px 30px 1000px 110px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:70px;
+	overflow:hidden;
+}
+#prompt {
+	color:#FFF;
+	line-height:150%;
+}
+#details{
+	position:fixed;
+	bottom:6px;
+	left:0;
+	font-size:12px;
+	padding:0 3px;
+	color:#CCC;
+}
+#details span{
+	font-weight:bold;
+}
+#details ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+#arrow{
+	font-size:150px;
+	color:#666;
+	position:fixed;
+	left:0px;
+	top:90px;
+}
+#scroll{
+    height: 5px;
+    background-color: #FFFF73;
+    width: 0px;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
