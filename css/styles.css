@@ -48,6 +48,7 @@ button:hover {
 p{
 	font-size:13px;
 }
+
 kbd{
 	padding: .1em .6em;
     border: 1px solid #ccc;
@@ -65,9 +66,16 @@ kbd{
     white-space: nowrap;
 	text-transform:uppercase;
 }
+
 table{
 	margin-top:10px;
 }
+
 hr{
 	margin-top:20px;
+}
+
+a{
+	color:white;
+	text-decoration:underline;
 }
