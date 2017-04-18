@@ -2,7 +2,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Open Teleprompter</title>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href="css/prompt.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -19,7 +18,7 @@
 		</ul>
 	</div>
 	
-	<script type="text/javascript" src="https://code.jquery.com/jquery.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="scripts/jquery.min.js" charset="utf-8"></script>
 	<script type="text/javascript" src="scripts/prompt.js"></script>
 </body>
 </html>
