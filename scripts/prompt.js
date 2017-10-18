@@ -7,6 +7,24 @@ $("#size").html(fontSize + "px");
 var status = 'Stop';
 $("#status").html(status);
 
+
+// If + or - button is clicked.
+$("#increase_font_size").click(function(e){
+	e.preventDefault();
+	var fontSize = parseInt($('#prompt').css("font-size"));
+	fontSize = fontSize + 1 + "px";
+	$('#prompt').css({'font-size':fontSize});
+	$("#size").html(fontSize);
+});
+
+$("#decrease_font_size").click(function(e){
+	e.preventDefault();
+	var fontSize = parseInt($('#prompt').css("font-size"));
+	fontSize = fontSize - 1 + "px";
+	$('#prompt').css({'font-size':fontSize});
+	$("#size").html(fontSize);
+});  
+
 document.onkeydown = function(e) {
     
 	console.log(e.keyCode);
