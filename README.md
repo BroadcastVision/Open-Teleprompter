@@ -1,5 +1,5 @@
 # Open-Teleprompter
-Demo: https://bcastvision.com/projects/Open-Teleprompter/
+Demo: https://github.com/BroadcastVision/open-teleprompter
 
 # Control Keys
 * Increase font size [+]
