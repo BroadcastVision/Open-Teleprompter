@@ -1,5 +1,5 @@
 # Open-Teleprompter
-Demo: https://www.bcastvision.com/projects/open-teleprompter/
+Demo: https://mz.unic.ac.cy/files/open-teleprompter/
 
 # Control Keys
 * Increase font size [+]

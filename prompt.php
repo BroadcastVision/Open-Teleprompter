@@ -13,6 +13,7 @@
 	<div id="scroll"></div>
 	<div id="details">
 		<ul>
+			<li><input type="button" value="+" id="increase_font_size"> <input type="button" value="-" id="decrease_font_size"></li>
 			<li>Mode: <span id="status"></span></li>
 			<li>Size: <span id="size"></span></li>
 			<li>Speed: <span id="speed"></span></li>
