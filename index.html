@@ -13,9 +13,10 @@
 <body>
 <div id="content">
 	<h1>Open Teleprompter v2.2</h1>
-	<form method="post" action="prompt.php" target="_blank">
+	<form id="tpform">
 		<textarea name="text" class="jqte"><b>Lorem Ipsum</b> is simply <span style="color:rgb(0,255,0);"><i><span style="color: rgb(0, 255, 0);">dummy text</span></i></span> of the printing and <b><span style="color:rgb(255,0,255);">typesetting industry</span></b>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</textarea>
 		<button type="submit" name="prompt" id="prompt">Prompt</button>
+		<label><input type="checkbox" id="fullScreen"> Open in Full Screen</label>
 	</form>
 	
 	<hr>
@@ -68,15 +69,6 @@
 		</tbody>
 	</table>
 </div>
-<script>
-$('.jqte').jqte({
-	br: false, 
-	format: false,
-	unlink: false,
-	fsize: false,
-	source: false,
-	link: false
-});
-</script>
+<script src="scripts/index.js"></script>
 </body>
 </html>

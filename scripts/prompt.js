@@ -8,6 +8,11 @@ var status = 'Stop';
 $("#status").html(status);
 
 
+window.addEventListener("message", function(event){
+	if (event.data.do=='updateTPtext')
+  		$("#prompt").html(event.data.msg)
+}, false);
+
 // If + or - button is clicked.
 $("#increase_font_size").click(function(e){
 	e.preventDefault();
@@ -26,8 +31,6 @@ $("#decrease_font_size").click(function(e){
 });  
 
 document.onkeydown = function(e) {
-    
-	console.log(e.keyCode);
 	
 	switch (e.keyCode) {
         case 107: // Increase font size.
