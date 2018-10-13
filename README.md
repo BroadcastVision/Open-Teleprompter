@@ -1,6 +1,3 @@
-# Open-Teleprompter
-Demo: https://bcastvision.com/projects/open-teleprompter/
-
 # Control Keys
 * Increase font size [+]
 * Decrease font size [-]
